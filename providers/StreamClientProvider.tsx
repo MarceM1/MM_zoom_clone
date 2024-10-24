@@ -28,7 +28,7 @@ const StreamVideoProvider = ({ children }: { children: ReactNode }) => {
     });
 
     setVideoClient(client);
-		console.log("Cliente", client)
+		// console.log("Cliente", client)
   }, [user, isLoaded]);
 
   if (!videoClient) return <Loader />;

@@ -21,6 +21,7 @@ export const tokenProvider = async () => {
     user_id: user.id,
     validity_in_seconds: validity,
   });
+  // console.log("Generated Token:", token);
 
   return token
 };

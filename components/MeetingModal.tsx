@@ -20,7 +20,7 @@ const MeetingModal = ({ isOpen,
 	handleClick,
 	children }: MeetingModalProps) => {
 
-	console.log(isOpen)
+	// console.log(isOpen)
 
 	return (
 		<div>
