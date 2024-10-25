@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <section className='flex size-full flex-col gap-10 text-white'>
       <div className="h-[300px] w-full rounded-[20px] bg-hero bg-cover">
-        <div className="flex h-full flex-col justify-between max-md:px-5 max-md:py-8 lg:p-11">
+        <div className="flex h-full flex-col justify-between max-md:px-5 px-5 py-8 lg:p-11">
           <div className='glassmorphism max-w-[400px] rounded py-2 items-center justify-center text-base font-normal flex gap-2'>
             <h2 className='text-base font-normal'>Upcoming Meeting at: </h2>
             <NextMeeting type='upcoming' />

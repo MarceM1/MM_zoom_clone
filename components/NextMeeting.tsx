@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 
 'use client'
@@ -68,6 +69,7 @@ const NextMeeting = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) =>
         }
 
         if (type === 'recordings') { fetchRecordings() };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [type, callRecordings])
 
     if (isLoading) return <Loader />
